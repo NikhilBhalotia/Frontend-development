@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multicolor website</title>
+    <style>
+        @media screen and (max-width: 400px) {
+            body{
+                background-color: aqua;
+            }
+            
+        }
+        @media only screen and (max-width: 400px){
+            body div{
+
+                flex-direction: column;
+            }
+        }
+
+
+
+        :root {
+            --color: rgb(84, 44, 176);
+            --seccolor: rgb(136, 188, 206);
+        }
+
+        div {
+            width: 80px;
+            flex-direction: row;
+        }
+
+
+
+        div {
+            display: flex;
+            width: auto;
+
+        }
+
+        div nav {
+            border: 2px solid black;
+            text-align: center;
+            width: 80px;
+            padding: 8px;
+            margin: 5px;
+            border-radius: 25px;
+            background-color: var(--color)
+        }
+
+
+        div nav:hover {
+            background-color: var(--seccolor);
+        }
+
+        div nav a{
+            color: rgb(229, 238, 243);
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav><a href="/">Home</a></nav>
+        <nav><a href="/">About</a></nav>
+        <nav><a href="/">Contact</a></nav>
+    </div>
+</body>
+
+</html>
