@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specificity and cascade</title>
+    <style>
+        /* specificity of this(element selector)  is 1 */
+        h1{
+            color: blue;
+
+        }
+        
+        /* specificity of this(class selector)  is 10 */
+        .red{
+            color: red /*!important has the highest specificity*/
+
+        }
+        /* specificity of this(class selector)  is 1+10=11 */
+        h1.yellow{
+            color: yellow;
+        }
+        /* specificity of this(class selector)  is 10 */
+        .green{
+            color: green;
+        }
+        /* attribute selector, attribute specificity value = 10 */
+        [data=a]{
+            color: aqua;
+        }
+/*         specificity value = 1+10+10+10+10 = 41
+        a.harry-class.rohan-class[href]:hover{
+            color: violet;
+        } */
+    </style>
+</head>
+<body>
+    <h1 class="red yellow green" data = "a">Today we are learning about specificity and cascade </h1>
+    
+</body>
+</html>

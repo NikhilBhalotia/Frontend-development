@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sizing units</title>
+    <style>
+        html {
+            font-size: 12px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            box-sizing: border-box;
+        }
+
+        .box {
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 1536px; */
+            width: 80vw;
+            height: 10vh;
+            margin: 23px auto;
+            background-color: aquamarine;
+
+        }
+
+        .container {
+
+            /* box-sizing: border-box; */
+            border: 2px solid black;
+            /* width: 1536px; */
+            width: 80vw;
+            /* height: 80vh; */
+            min-height: 80vh;
+            font-size: 18px;
+            margin: 23px auto;
+            background-color: aquamarine;
+            font-size: 2rem;
+        }
+
+        .container>div {
+            box-sizing: border-box;
+
+            border: 2px solid red;
+            font-size: 2em;
+            width: 50%;
+        }
+
+        .container>div>div {
+            box-sizing: border-box;
+            border: 2px solid blue;
+            width: 50%;
+        }
+
+        .mycont {
+            /* width: 50%; */
+            box-sizing: border-box;
+            border: 2px solid black;
+            margin: 23px auto;
+
+            color: aqua;
+            /* width: 100vmin; */
+            width: 80vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        This is a box
+    </div>
+    <div class="container">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vero in officiis ullam nemo. Ullam officiis
+            eligendi est ex quisquam eum, veritatis nemo similique! Voluptatum temporibus consequatur reiciendis quae
+            nemo architecto velit ipsa magnam.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo sit nostrum dolorem
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint numquam facere iste est consequatur
+                facilis itaque consequuntur iure recusandae cumque, ratione ab sequi.</div>
+        </div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptates aliquid, consequatur aperiam
+        voluptatibus animi ut a cupiditate recusandae ipsum, sed illo, pariatur non. Nulla mollitia tempore consectetur
+        quas qui deserunt in, perferendis animi veritatis obcaecati temporibus. Hic, reprehenderit laudantium. Error
+        accusantium laborum earum a velit eos, officia ipsa veritatis vel asperiores nisi cum natus, neque quasi
+        aspernatur beatae eum quos, atque optio ipsum dicta alias. Provident quod repellat accusantium porro voluptatum
+        deleniti dolor neque. Blanditiis delectus ex ullam, sed incidunt provident accusamus pariatur debitis deserunt
+        similique et reiciendis saepe nostrum rem tempora eum dolorem nihil veniam quaerat quos a sint consequatur
+        eaque? Consequatur cupiditate quas error. Est atque architecto, libero voluptatum amet eaque cum odio quae fuga
+        veniam? Porro ex tempore blanditiis officia eaque voluptatem ut et labore veniam quasi adipisci amet commodi
+        temporibus, nesciunt, dignissimos esse, assumenda sapiente? In ut, possimus vel dolor repellat dolorum odit.
+        Tempora repellendus facilis quia ratione commodi dolore ullam? Eos laudantium totam quibusdam sed nemo,
+        necessitatibus qui similique in ab earum tempora
+    </div>
+    <div class="mycont">
+        I am another container
+    </div>
+</body>
+
+</html>

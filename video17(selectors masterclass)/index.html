@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors in CSS</title>
+    <style>
+        /* Element Selector */
+        div {
+            background-color: red;
+        }
+
+        /* Class selector */
+        .red {
+            background-color: blue;
+        }
+
+        /* Id selector */
+        #ok {
+            background-color: aqua;
+        }
+
+        /* chlid selector */
+        div p:nth-child(1) {
+            background-color: rgb(105, 226, 75);
+        }
+        /* Desendant selector */
+
+        div span{
+            background-color: pink;
+        }
+        /* Universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        /* pseudo selector */
+        a:visited{
+            color: yellow;
+        }
+        a:link{
+            color: rgb(189, 212, 35);
+        }
+        a:active{
+            background-color: rgb(54, 180, 19);
+        }
+        a:hover{
+            background-color: blue;
+        }
+        p:first-child{
+            color: rgb(174, 100, 192);
+        }
+        
+
+
+    </style>
+</head>
+
+<body>
+    <div>Element selector</div>
+    <div class="red">Class selector</div>
+    <div id="ok">Id selector</div>
+    <div>
+        <p>Child Selector</p>
+    </div>
+    <div>
+        <p>
+            <span>Desendant Selector</span>
+        </p>
+    </div>
+    <div style="background-color: white;">
+        <a href="https://www.google.com">Go to google</a>
+    </div>
+
+    <main>
+        <p>I am first</p>
+        <p>I am second</p>
+    </main>
+
+
+</body>
+
+</html>
