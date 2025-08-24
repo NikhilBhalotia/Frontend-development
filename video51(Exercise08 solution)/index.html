@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise08 Bounce Animation</title>
+    <style>
+        @keyframes AnimateX {
+            from {
+                left: 0;
+            }
+
+            to {
+                left: 100%;
+            }
+        }
+
+        @keyframes AnimateY {
+            from {
+                bottom: 0;
+            }
+
+            to {
+                bottom: 100%;
+
+            }
+
+
+        }
+
+        .container {
+            width: 100vw;
+            height: 400px;
+            border: 2px solid black;
+            background-color: beige;
+            
+        }
+
+        .item {
+            width: 80px;
+            height: 80px;
+            margin-top: 317px;
+            border: 2px solid black;
+            border-radius: 70px;
+            background-color: rgb(247, 2, 2);
+            position: relative;
+            animation: AnimateX 8s linear 0s infinite, AnimateY 1s ease-out 0s infinite alternate;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="item"></div>
+    </div>
+
+</body>
+
+</html>
