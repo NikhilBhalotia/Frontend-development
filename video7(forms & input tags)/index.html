@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - Let's Learn it</title>
+</head>
+
+<body>
+    <h1>Form to apply for Gates</h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter your user name</label>
+            <input type="text" id="username" name="username" placeholder="username">
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+        </div>
+        <input type="checkbox" id="Exercise" name="Exercise" value="yes">
+        <label for="Exercise">Exercise daily</label>
+
+        <div>
+            <label for="comment">Enter your comment</label>
+            <br>
+            <textarea name="comment" id="comment" cols="20" rows="5" placeholder="comment.."></textarea>
+        </div>
+        <div>
+            <select name="location">
+                <option value="jaipur">Jaipur</option>
+                <option value="alwar">Alwar</option>
+                <option value="goa">Goa</option>
+            </select>
+
+        </div>
+        <div>
+            <label for="age">enter your age</label>
+            <input type="number" name="age" value="age" required>
+
+        </div>
+    </form>
+</body>
+
+</html>
