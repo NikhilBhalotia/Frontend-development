@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(1, 1, 20);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.box{
+    width: 98vw;
+    height: 120px;
+    border: 1px solid rgb(16, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border-radius: 12px;
+    display: flex;
+    
+    
+}
+
+.thumbnail{
+    width: 200px;
+    height: 110px;
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 12px;
+    background-image: url(bg.jpg);
+    background-size: 200px 120px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.time{
+    /* position:absolute; */
+    width: 40px;
+    height: 18px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    margin-left: 150px;
+    margin-top: 80px;
+    color: white;
+    font-weight: 400;
+    background-color: rgba(23, 23, 23, 0.8);
+    padding: 2px 2px 2px 4px;
+    
+}
+
+.title{
+    /* border: 2px solid rgb(72, 255, 5); */
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 900; 
+    width: 1230px;
+    max-height: 50px;
+    overflow: hidden;
+
+}
+.channel{
+    list-style: none;
+
+}
+.views ul{
+    color: white;
+    display: flex;
+    margin: 37px 28px -5px -1330px;
+   
+    
+}
+.views ul li {
+    margin: 10px;
+}
+@media only screen and (max-width:400px) {
+    .thumbnail{
+        width: 120px;
+        height: 80px;
+        border-radius: 6px;
+    }
+    .time{
+        margin: 54px 0px 2px 72px;
+    }
+    .container{
+        height: 100px;
+        width: 98vw;
+    }
+    .views ul{
+        margin: 45px 28px -5px -295px;
+    }
+}

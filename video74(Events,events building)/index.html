@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events,Events bubbling</title>
+</head>
+
+<body>
+    <script>
+        let btn = document.querySelector(".button")
+
+        btn.addEventListener("click", ()=> {
+            console.log("you clicked")
+        })
+    </script>
+    <div class="container">
+        <div class="box">Hey I am good</div>
+        <button id="button">Change the content</button>
+    </div>
+</body>
+
+</html>

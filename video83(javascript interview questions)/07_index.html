@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video 83</title>
+</head>
+
+<body>
+    <script src="07_local_storage.js"></script>
+    <div class="note">
+
+        <button>Add Note</button>
+    </div>
+    <script>
+
+
+        // question 07
+
+        function SaveNoteToLocalStorage(note) {
+            localStorage.setItem("note", note)
+        }
+        let note = localStorage.getItem("note")
+        if (note) {
+            document.querySelector(".note").innerHTML = note
+        }
+
+        document.querySelector("button").addEventListener("click", () => {
+            let note = prompt("Enter your note : ")
+            SaveNoteToLocalStorage(note)
+            document.querySelector(".note").innerHTML = note
+        })</script>
+</body>
+
+</html>
