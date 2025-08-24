@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav bar using flexbox</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        ol {
+            list-style: none;
+            display: flex;
+            float: right;
+            margin-right: 200px;
+            margin-top: 10px;
+        }
+
+        li {
+            padding: 10px;
+        }
+
+        nav span {
+            margin: 10px;
+        }
+
+        .name {
+            display: inline-block;
+            margin-top: 5px;
+            font-size: x-large;
+            font-weight: bolder;
+        }
+
+        .heading {
+            display: flex;
+            justify-content: center;
+            padding-top: 80px;
+        }
+
+        .container {
+            display: flex;
+            margin-top: 100px;
+            margin-left: 200px;
+            margin-right: 200px;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 15px;
+        }
+
+        .item {
+            background-color: rgb(238, 238, 238);
+            width: 300px;
+            height: 150px;
+            display: inline-block;
+            justify-self: center;
+            padding: 10px;
+
+        }
+
+        h5 {
+
+            margin: 10px;
+            font-weight: lighter;
+            display: flex;
+            justify-content: center;
+        }
+
+        .logo {
+            display: inline-block;
+            margin-top: 20px;
+            margin-right: 0px;
+            border: 2px solid black;
+            padding: 5px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            color: yellow;
+            background-color: black;
+            font-style: italic;
+            font-weight: bolder;
+            font-size: larger;
+            border-radius: 4px;
+            margin-left: 300px;
+        }
+
+        .minihead {
+            font-size: x-small;
+            display: inline-block;
+            margin-left: 0;
+
+
+        }
+
+        button {
+            color: white;
+            background-color: rgb(91, 195, 236);
+            padding: 10px;
+            border-radius: 5px;
+
+        }
+
+        button:hover {
+            background-color: skyblue;
+            cursor: pointer;
+        }
+
+        .button {
+            display: flex;
+            justify-content: center;
+            margin: 40px;
+        }
+
+        .button1 {
+            margin-top: 70px;
+        }
+
+        .button2 {
+            background-color: green;
+            
+
+        }
+        .button1:hover{
+            background-color: skyblue;
+            cursor: pointer;
+        }
+        .button2:hover{
+            background-color: rgb(138, 224, 138);
+            cursor: pointer;
+        }
+        .innerbutton{
+            margin-left: 30px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <nav>
+            <ol>
+                <li>Products</li>
+                <li>Pricing</li>
+                <li>Resources</li>
+                <li>About us</li>
+            </ol>
+            <span>
+
+                <span class="logo">UE</span>
+                <span class="name">UltraEdit
+                </span>
+                <span class="minihead">company</span>
+
+            </span>
+        </nav>
+    </div>
+    <div class="heading">
+        <h1>Download UltraEdit for windows</h1>
+    </div>
+    <h5>Downlad and try UltraEdit before you buy it! This downlaod includes the full windows version of the text editor
+    </h5>
+    <span class="button"><button>DOWNLOAD MAC OR LINUX VERSION</button></span>
+    <main>
+        <div class="container">
+            <div class="item">English
+                <div class="innerbutton"><button class="button1">Download 32-bit</button>
+                    <button class="button2">Download 64-bit</button>
+                </div>
+
+            </div>
+            <div class="item">Deutsch
+                <div class="innerbutton">
+                <button class="button1">Download 32-bit</button>
+                <button class="button2">Download 64-bit</button>
+                </div>
+            </div>
+            <div class="item">Italiano
+                <div class="innerbutton">
+                <button class="button1">Download 32-bit</button>
+                <button class="button2">Download 64-bit</button>
+                </div>
+            </div>
+            <div class="item">Franch
+                <div class="innerbutton">
+                <button class="button1">Download 32-bit</button>
+                <button class="button2">Download 64-bit</button>
+                </div>
+            </div>
+            <div class="item">Portuguse
+                <div class="innerbutton">
+                <button class="button1">Download 32-bit</button>
+                <button class="button2">Download 64-bit</button>
+                </div>
+            </div>
+            <div class="item">Espanol
+                <div class="innerbutton">
+                <button class="button1">Download 32-bit</button>
+                <button class="button2">Download 64-bit</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
