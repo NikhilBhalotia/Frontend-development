@@ -3,7 +3,7 @@
 This repository contains multiple frontend development projects built entirely with HTML, CSS, and JavaScript.
 These projects showcase responsive layouts, clean UI/UX, and JavaScript-powered interactivity — all without frameworks or libraries.
 
-📖 About
+#📖 About
 
 This repository is a curated collection of projects aimed at:
 
