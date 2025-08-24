@@ -3,7 +3,7 @@
 This repository contains multiple frontend development projects built entirely with HTML, CSS, and JavaScript.
 These projects showcase responsive layouts, clean UI/UX, and JavaScript-powered interactivity — all without frameworks or libraries.
 
-#📖 About
+## 📖 About
 
 This repository is a curated collection of projects aimed at:
 
@@ -17,7 +17,7 @@ Building reusable, scalable, and clean UI components
 
 No frameworks, libraries, or build tools are required. These projects are lightweight and run directly in the browser.
 
-🚀 Features
+## 🚀 Features
 
 📱 Fully Responsive – Works on all screen sizes
 
@@ -29,18 +29,20 @@ No frameworks, libraries, or build tools are required. These projects are lightw
 
 📝 Well-Commented – Beginner-friendly
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 Technology	Purpose
 HTML5	Page structure & semantic elements
 CSS3	Styling, Flexbox, Grid, Animations
 JavaScript	Dynamic behavior and interactivity
-🖥 Projects Overview
+
+## 🖥 Projects Overview
 Project Name	Description
 Landing Page	A fully responsive landing page template
 To-Do List App	Simple app to add, delete, and manage tasks
 Image Gallery	Interactive gallery with hover and click effects
 Calculator	Functional calculator with basic math operations
-🎯 Usage
+
+##🎯 Usage
 
 Open any project folder and launch the index.html file in your browser.
 
@@ -48,11 +50,8 @@ Modify the HTML, CSS, or JavaScript to experiment and learn.
 
 Use these projects as templates or inspiration for your own work.
 
-📸 Screenshots
 
-Example Preview:
-
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 Add more mini frontend projects
 
@@ -62,7 +61,7 @@ Enhance performance optimizations
 
 Add dark mode to all templates
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome!
 
